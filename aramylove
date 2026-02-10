@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Simple</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #f335c7, #ff09da);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background: rgb(248, 29, 29);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #f335c7;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #f335c7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Halo Cantik</h1>
+        <p>GODAIN AKU DONG.</p>
+        <button onclick="alert('SUKA RAMBUT BABY')">
+            Love U Mwach
+        </button>
+    </div>
+
+</body>
+</html>
